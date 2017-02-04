@@ -4,24 +4,6 @@ When you need some basic responsive email signatures that work on mobile.<br/>
 ...and your colleagues need them too.<br/>
 ...but you don't want to deal with tables and inline styles.
 
-## Motivation
-Let's make writing HTML emails & email signatures easier. We won't fix all email clients, but we can surely make our lives easier with some neat automation. <br/>
-See a fairly comprehensive rant on the subject (and not only) [in this article](http://fadeit.dk/blog/post/html-emails-and-email-signatures-how-hard-can-it-be).
-
-
-## What does it do
-- [x] config-based template generation
-- [x] allows generating multiple templates (for your colleagues too!)
-- [x] transforms linked (`<link>`) CSS into inline styles
-- [x] embeds local `img[src]` into the template (base64).*
-- [x] minifies the template
-- [x] media queries for mail clients that support them
-- [x] can build templates from multiple sources
-- [x] watches HTML/CSS files for changes and re-builds
-
-**Some mail clients don't support them, so an external URL might be a good idea. Also, some clients might complain about the size, so keep an eye out.*
-
-
 ## Getting started
 ```
 $ npm install
