@@ -6,7 +6,7 @@ module.exports = [
   {
     id: 'ONEstoreBlack', // Will be appended to the built templates.
     signature: 'Best regards,',
-    name: 'Joo Hyung Park',
+    name: 'Emil Karlsson',
     team: 'Service Planning Team',
     title: 'Dev Relations',
     welcome: '안녕하세요.',
@@ -15,7 +15,7 @@ module.exports = [
     contactMail: 'devhelper@onestore.co.kr',
     // slogan: '\"The 1st integrated Android App store in Korea\"',
     contactSecondary: '188, Pangyoyeok-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, Korea',
-    logoUrl: 'assets/type03.png', 
+    logoUrl: 'assets/type03.png',
     logoAlt: 'ONEstore. logo',
     website: 'http://onesto.re/'
   }

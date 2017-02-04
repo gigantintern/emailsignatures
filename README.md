@@ -4,16 +4,6 @@ When you need some basic responsive email signatures that work on mobile.<br/>
 ...and your colleagues need them too.<br/>
 ...but you don't want to deal with tables and inline styles.
 
-
-## Preview
-Here's how the samples look:
-
-![responsive emails-01](https://cloud.githubusercontent.com/assets/1515742/10591900/13889d32-76b9-11e5-8dc0-b89d80189e93.png)
-![responsive emails-02](https://cloud.githubusercontent.com/assets/1515742/10591901/139c4954-76b9-11e5-80f7-5b0ccaf5af81.png)
-
-## Read the docs in other languages
-[Read the docs in Korean!](/README_kor.md)
-
 ## Motivation
 Let's make writing HTML emails & email signatures easier. We won't fix all email clients, but we can surely make our lives easier with some neat automation. <br/>
 See a fairly comprehensive rant on the subject (and not only) [in this article](http://fadeit.dk/blog/post/html-emails-and-email-signatures-how-hard-can-it-be).
@@ -93,8 +83,8 @@ If you are using iCloud drive or having problems with it, you might also want to
 
 ### Outlook 2010 Client for Windows 7
 
-#### Solution 1 
-- Open Outlook 2010 and go to `File > Option > Mail > Signature` 
+#### Solution 1
+- Open Outlook 2010 and go to `File > Option > Mail > Signature`
 - Create new signature (with a placeholder for your convenience)
 - Open signature folder using CMD
 
@@ -102,7 +92,7 @@ If you are using iCloud drive or having problems with it, you might also want to
 
 ```
 cd AppData\Roamin\Microsoft
-start Signatures 
+start Signatures
 ```
 
 - Within this folder, find a file named with your placeholder then right click this file and select edit.
@@ -110,13 +100,13 @@ start Signatures
 - Open Outlook again and check your signature
 
 #### Solution 2
-Unfortnately, Outlook 2010 client dosen't support HTML file import features for your email template. But you can add your own signatures by simple Copy and paste like **Solution 2** above. 
+Unfortnately, Outlook 2010 client dosen't support HTML file import features for your email template. But you can add your own signatures by simple Copy and paste like **Solution 2** above.
 
-- Open built html file on `/dist` folder and Ctrl A + C 
-- Open Outlook 2010 and go to `File > Option > Mail > Signature` 
+- Open built html file on `/dist` folder and Ctrl A + C
+- Open Outlook 2010 and go to `File > Option > Mail > Signature`
 - Create new signature and paste copyed one
 
-> **NB**: base 64 will not be shown on Outlook 2010 client. So, I recommend to use external url if you want to use images. 
+> **NB**: base 64 will not be shown on Outlook 2010 client. So, I recommend to use external url if you want to use images.
 
 ===================
 <br/>
